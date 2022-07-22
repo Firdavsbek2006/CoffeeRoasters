@@ -1,0 +1,21 @@
+.site-header{
+    padding: 44px 0;
+}
+
+.header{
+    @include header;
+}
+
+.header__list{
+    @include header;
+    gap: 33px;
+}
+
+.header__item a{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+}

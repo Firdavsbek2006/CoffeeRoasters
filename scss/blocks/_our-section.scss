@@ -1,0 +1,43 @@
+.our-section{
+    padding: 262px 84px 200px;
+    background-image: url("../img/our-collection.png");
+    background-repeat: no-repeat;
+    background-size: 1111px 196px;
+    background-position: calc(50%) 136px;
+}
+
+.our__list{
+    display: flex;
+    gap: 30px;    
+}
+
+.our__item{
+    width: 255px;
+    text-align: center;
+}
+
+.our__div{
+    width: 100%;
+    margin-top: 71.56px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.our__title{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.our__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
+
