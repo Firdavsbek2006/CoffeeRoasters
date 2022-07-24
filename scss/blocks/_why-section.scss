@@ -1,0 +1,109 @@
+.why-section{
+    position: relative;
+    padding-bottom: 151px;
+}
+.why-choose{
+    width: 100%;
+    padding: 100px 370px 301px;
+    background-image: url("../img/why-img.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.why-choose__title-div{
+    width: 329px;
+    margin: 0 auto;
+    margin-left: 105.5px;
+    margin-bottom: 32px;
+}
+
+.why-choose__title{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.why-choose__text-div{
+    width: 540px;
+}
+
+.why-choose__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.why__list{
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+    display: flex;
+    gap: 30px;
+}
+
+.why__item{
+    width: 350px;
+    padding: 72px 48px 48px 47px;
+    background: #0E8784;
+    border-radius: 8px;
+}
+
+
+
+.why__item svg{
+    margin: 0 94.5px 56px 88.5px;
+}
+
+.why__item:last-child svg{
+    margin-top: 11px;
+    margin-bottom: 67px;
+}
+
+.why__item:hover svg path{
+    fill: #0E8784;
+}
+
+.why__item:hover{
+    background-color: #FDD6BA;
+}
+
+.why__item:hover .why__title{
+    color: #333D4B;
+}
+
+.why__item:hover .why__text{
+    color: #333D4B;
+}
+
+.why__sub-div{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.why__title{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.why__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+}

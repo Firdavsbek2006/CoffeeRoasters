@@ -4,9 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    transition: .2s ease-in-out;
 }
 
 body{
+    padding-bottom: 88px;
     font-family: 'Fraunces', sans-serif;
     font-family: 'Barlow', sans-serif;
 }

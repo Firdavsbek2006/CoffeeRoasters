@@ -1,0 +1,120 @@
+.how-section{
+    padding: 200px 0;
+}
+
+.how__title-div{
+    width: 255px;
+    margin-bottom: 80px;
+}
+
+.how__title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.drop-wrapper{
+    padding-bottom: 67px;
+    display: flex;
+    align-items: center;
+}
+
+.drop{
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
+
+.drop:hover .sub-drop{
+    background-color: crimson;
+}
+
+.drop:active .sub-drop{
+    transform: translateX(380px);
+}
+.drop:last-child:active .sub-drop{
+    transform: translateX(-760px);
+}
+
+.sub-drop{
+    width: 100%;
+    height: 100%;
+    background-color: #FEFCF7;
+    border-radius: 50%;
+}
+
+.drop-wrapper span{
+    width: 349px;
+    height: 2px;
+    background-color: #FDD6BA;
+    display: inline-block;
+}
+
+.how__list{
+    margin-bottom: 64px;
+    display: flex;
+    gap: 95px;
+}
+
+.how__item{
+    width: 285px;
+}
+
+.how__item span{
+    width: 90px;
+    height: 72px;
+    margin-bottom: 38px;
+    display: inline-block;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.how__strong-div{
+    width: 255px;
+    margin-bottom: 42px;
+}
+
+.how__strong-div h3{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.how__text-div{
+    width: 100%;
+}
+
+.how__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;    
+}
+.how-section a{
+    padding: 16px 31px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+}
+
+.how-section a:hover{
+    background: #66D2CF;
+}
